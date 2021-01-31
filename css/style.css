@@ -1,0 +1,68 @@
+body {
+    padding-top: 70px;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+h4 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.container {
+    /* width: 60%; */
+    width: 760px; 
+    padding: 0px;
+}
+
+.container {
+    text-align: justify;
+}
+
+.container ul {
+    padding-left: 1em;
+}
+
+
+.table tr:first-child td, .table tr:first-child th {
+    border-top: none;
+}
+
+#imgme {
+    width: 140px;
+    float: right;
+    margin-left: 20px;
+}
+
+a.hiddenlink {
+    color: #333;
+}
+
+a {
+    color: #2060ff;
+}
+
+a:hover {
+    color: #2060ff;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
